@@ -8,6 +8,7 @@ public class Containers {
 
 	@GetMapping(value = "/")
 	public String method() {
+		
 		return "Hello";
 	}
 }
